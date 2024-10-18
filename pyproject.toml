@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fea-dev"
+version = "0.1.0"
+description = ""
+authors = ["EnzoRobaina <enzo.robaina@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+playwright = "^1.47.0"
+cloudscraper = "^1.2.71"
+playwright-stealth = "^1.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
